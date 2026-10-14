@@ -1,0 +1,13 @@
+.image_gallery{
+  color: blue;
+  text-align: center;
+  border-bottom: solid blue 3px;
+}
+.image-gallery_items{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.image-gallery_items img{
+  height: 250px;
+}
