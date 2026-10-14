@@ -1,0 +1,10 @@
+
+/* .gabarito-<uniquifier> {
+  font-family: "Gabarito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+body {
+    font-family: "Gabarito", sans-serif;
+}
