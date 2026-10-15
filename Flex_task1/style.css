@@ -1,13 +1,34 @@
-.image_gallery{
+.image_gallery {
   color: blue;
   text-align: center;
-  border-bottom: solid blue 3px;
 }
-.image-gallery_items{
+
+.image_gallery h1 {
+  display: inline-block;
+  border-bottom: 8px solid blue;
+  padding: 0 50px 5px;
+}
+
+.image-gallery_items {
   display: flex;
   flex-wrap: wrap;
+  gap: 5px;
+
 
 }
-.image-gallery_items img{
+
+.image-gallery_items img {
+  flex: 1 1 20%;
   height: 250px;
+  object-fit: cover;
+  min-width: 0;
+  border: solid black 5px;
+  /* height: 250px;
+  flex-basis: 24.7%;
+  box-sizing: border-box;
+   object-fit: cover;
+   border: solid black 5px; */    
+  /* width: calc(25% - 2px); */
+
+  /* padding: 1px; */
 }
