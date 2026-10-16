@@ -86,9 +86,7 @@ body {
     height: 250px;
 }
 
-.trending_container p{
-    
-}
+
 
 .trending_container p:nth-of-type(2)::after {
     content: " ★";
@@ -97,6 +95,19 @@ body {
 
 .topics{
     padding: 10px;
+}
+.topics input {
+    width: 300px;
+    padding: 12px;
+    margin-top: 15px;
+    border: 1px solid #AE71FC;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+}
+.topics input:focus {
+    border-color: #7B2FF7;
+    box-shadow: 0 0 5px #AE71FC;
 }
 .topics_container{
     display: flex;
@@ -137,10 +148,8 @@ body {
     margin: 0;
     padding: 10px;
 }
-.footer_two{
-   
+.footer_two {
     display: flex;
-    margin: 0;
-    /* justify-content: center; */
-    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
 }
